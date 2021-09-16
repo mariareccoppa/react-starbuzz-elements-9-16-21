@@ -11,9 +11,9 @@ import MenuItem from './MenuItem';
 
 // Then replace the definition of menuItemElement1 below to use these variables so the output looks exactly the same:
 
-name = 'House Blend';
-price = 1.49;
-description =
+let name = 'House Blend';
+let price = 1.49;
+let description =
   'A smooth, mild blend of coffees from Mexico, Bolivia and Guatemala.';
 
 const menuItemElement1 = (
