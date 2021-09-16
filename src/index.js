@@ -11,9 +11,9 @@ import MenuItem from './MenuItem';
 
 // Then replace the definition of menuItemElement1 below to use these variables so the output looks exactly the same:
 
-let name = 'House Blend';
-let price = 1.49;
-let description =
+name = 'House Blend';
+price = 1.49;
+description =
   'A smooth, mild blend of coffees from Mexico, Bolivia and Guatemala.';
 
 const menuItemElement1 = (
@@ -27,43 +27,43 @@ const menuItemElement1 = (
 
 // Copy/paste/modify the variables/definitions for menuItemElement2, menuItemElement3, and menuItemElement4 (BAD IDEA IN GENERAL!).  NOTE: We need to use let initially instead of const if we're changing the values of variables and then NO use of let after that.
 
-let name2 = 'Mocha Cafe Latte';
-let price2 = 2.35;
-let description2 = 'Espresso, steamed milk and chocolate syrup.'
+name = 'Mocha Cafe Latte';
+price = 2.35;
+description = 'Espresso, steamed milk and chocolate syrup.'
 
 const menuItemElement2 = (
   <div>
     <h2>
-      {name2}, ${price2}
+      {name}, ${price}
     </h2>
-    <p>{description2}</p>
+    <p>{description}</p>
   </div>
 );
 
-let name3 = 'Cappuccino';
-let price3 = 1.89;
-let description3 = 'A mixture of espresso, steamed milk and foam.'
+name = 'Cappuccino';
+price = 1.89;
+description = 'A mixture of espresso, steamed milk and foam.'
 
 const menuItemElement3 = (
   <div>
     <h2>
-      {name3}, ${price3}
+      {name}, ${price}
     </h2>
-    <p>{description3}</p>
+    <p>{description}</p>
   </div>
 
 );
 
-let name4 = 'Chai Tea'
-let price4 = 1.85;
-let description4 = 'A spicy drink made with black tea, spices, milk and honey.'
+name = 'Chai Tea'
+price = 1.85;
+description = 'A spicy drink made with black tea, spices, milk and honey.'
 
 const menuItemElement4 = (
   <div>
     <h2>
-      {name4}, ${price4}
+      {name}, ${price}
     </h2>
-    <p>{description4}</p>
+    <p>{description}</p>
   </div>
 
 );
